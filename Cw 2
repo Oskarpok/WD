@@ -1,1 +1,74 @@
 
+#a=7
+#b=5
+
+#if a>b;
+#    print('Liczba a jest wieksza od b')
+
+#elif a<b;
+#    print("liczba a jest mniejsza od b")
+
+#else:
+#print('liczby sa równe')
+
+#a=input('Podaj liczbe a: ')
+#b=input('Podaj liczbe b: ')
+#c=input('Podaj liczbe c: ')
+#d=input('Podaj liczbe d: ')
+
+#print(a)
+#print(type(a))
+
+#a=int(a)
+#b=int(b)
+#c=int(c)
+#d=int(d)
+
+#print (type())
+
+#if (a>b)&(c>d):
+ #   print ('liczba a jest wieksza od liczby b i liczby c jest wieksza od liczby d')
+#else:
+#    print ('liczba a jest mniejsza niz liczba b lub liczba c jest mniejsza od liczby d ')
+
+#funkcja reng (start,stop,step)
+#for licznik in sekwencja
+
+for i in range(0,7,1):
+    print(i)
+
+lista=['cos',2,3,4.5]
+
+for element in lista:
+    print (element)
+
+else:
+    print('wyswietlono wszystkie elementy listy')
+
+#petla while
+
+#while warunek:
+
+#instrukcje
+
+#else:
+#instrukcje do wykonania po petli
+
+z=0
+while z!=11:
+    print(z)
+    z+=1
+else:
+    print('wyswietlono '+str(z)+'11 liczb')
+
+lista=[4,6,2,3,5,9,1]
+liczba=input('podaj liczbe:')
+licznik=0
+
+while licznik!=len(lista):
+    if int(liczba)-lista[licznik]==0:
+        print(liczba + ' - ' + str(lista[licznik]) + '=0')
+        break
+
+    else:
+        licznik += 1

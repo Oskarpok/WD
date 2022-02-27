@@ -72,3 +72,41 @@ while licznik!=len(lista):
 
     else:
         licznik += 1
+
+
+lista1=[4,6,2,3,5,9,1]
+lista2=[7,3,4,6]
+
+suma=[]
+
+for a in lista1:
+    for b in lista2:
+        wynik=a+b
+        suma.append(wynik)
+    print(suma)
+
+liczba1=input('podaj pierwsza liczbe: ')
+liczba2=input('podaj druga liczbe: ')
+
+try:
+    liczba1=int(liczba1)
+    liczba2=int(liczba2)
+    wynik=liczba1/liczba2
+    print ('wynik dzialania='+str(wynik))
+
+except ZeroDivisionError:
+    print ('nie mozna dzielic przez 0')
+except ValueError:
+    print ('nie wczytano liczby calkowitej')
+
+# lista=[]
+#po indeksie
+# slownik={K:W,K:W}
+#slownik{'po kluczu'}
+#klucz wartosc
+
+Lista=[1,2,3,4,5,6,7]
+Lista.append(8)
+Lista.pop(5)
+
+3 in Lista

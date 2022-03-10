@@ -1,40 +1,104 @@
-# WD
+zad1
 
-import sys
+astring='Adam'
+bstring='Piotr'
+
+aint=5
+bint=3
+
+afloat=5.2
+bfloat=4.8
+
+acomplex=2+4j
+bcomplex=5+3j
+
+print(astring+' '+bstring)
+print(aint,bint)
+print(afloat,bfloat)
+print(acomplex,bcomplex)
+
+zad2
+
+a=8
+b=4
+
+print('Dodawanie    %(a)d+%(b)d=%(c)d'%{'a':a,'b':b,'c':(a+b)})
+print('Odejmowanie  %(a)d-%(b)d=%(c)d'%{'a':a,'b':b,'c':(a-b)})
+print('Mnozenie     %(a)d*%(b)d=%(c)d'%{'a':a,'b':b,'c':(a*b)})
+print('Dzielenie    %(a)d/%(b)d=%(c)d'%{'a':a,'b':b,'c':(a/b)})
+
+zad3
+
+a=8
+a+=1
+print(a)
+
+a=8
+a-=1
+print(a)
+
+a=8
+a*=1
+print(a)
+
+a=8
+a/=2
+print(a)
+
+a=8
+a**=2
+print(a)
+
+a=9
+a%=3
+print(a)
+
+zad4
+
+e=2.71828182846
+a=e**10
+print('e^10=%(z)f'%{'z':a})
+
 import math
 
-print(sys.version)
+print('⌊3,55⌋')
+print(math.floor(3.55))
 
-a='isi grupa \niestacjonarne'
+print('⌈4,80⌉')
+print(math.ceil(4.80))
 
-print(a)
-print(type(a))
+zad 5
 
-b=5
-print(b)
+a='OSKAR'
+b='POKROPIŃSKI'
 
-c=5.4
-print(c)
+a=a.capitalize()
+b=b.capitalize()
+print(a,b)
 
-d=3+2j
-print(d)
-print(type(d))
+zad 6
 
-#komentaz liniowy
-#zanaczony kod jest komentowany
+a='lalalala'
 
+print(a.count('la'))
 
-e=7
-f=3
-print(e // f)
-print(e ** f)
+zad7
 
-#g='wizualizacja danych'
-#h=' grupa 1'
+a='Adam'
 
-#print(g+h)
+print(a[1])
+print(a[3])
 
-print(math.pow(e,f))
+zad8
+a='la la la la'
 
-print(2/3 ** f)
-print(math.pow(2/3,f))
+print(a.split())
+
+zad9
+a='witaj'
+b=5.5
+c=0xc
+
+print('String       %(z1)s'%{'z1':a})
+print('Float        %(z1)f'%{'z1':b})
+print('Szesnastkowa %(z1)s'%{'z1':hex(c)})

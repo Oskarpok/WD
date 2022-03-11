@@ -1,112 +1,41 @@
+zad1
 
-#a=7
-#b=5
+listasport=['kosz','siata','reczna']
+print(listasport)
+listasport.reverse()
+print(listasport)
+listasport.append('tenis')
+listasport.append('noga')
+print(listasport)
 
-#if a>b;
-#    print('Liczba a jest wieksza od b')
+zad2
 
-#elif a<b;
-#    print("liczba a jest mniejsza od b")
+slownik={'wo':'wojna','uk':'Ukraina','Rosja':''}
 
-#else:
-#print('liczby sa równe')
+print(slownik)
 
-#a=input('Podaj liczbe a: ')
-#b=input('Podaj liczbe b: ')
-#c=input('Podaj liczbe c: ')
-#d=input('Podaj liczbe d: ')
+zad3
 
-#print(a)
-#print(type(a))
+#klucz id gry 
+slownik={1:'Divinity',2:'Lostark',3:'Cs',4:'Skyrim',5:'Wiedzmin'}
 
-#a=int(a)
-#b=int(b)
-#c=int(c)
-#d=int(d)
+print(len(slownik))
 
-#print (type())
-
-#if (a>b)&(c>d):
- #   print ('liczba a jest wieksza od liczby b i liczby c jest wieksza od liczby d')
-#else:
-#    print ('liczba a jest mniejsza niz liczba b lub liczba c jest mniejsza od liczby d ')
-
-#funkcja reng (start,stop,step)
-#for licznik in sekwencja
-
-for i in range(0,7,1):
-    print(i)
-
-lista=['cos',2,3,4.5]
-
-for element in lista:
-    print (element)
-
-else:
-    print('wyswietlono wszystkie elementy listy')
-
-#petla while
-
-#while warunek:
-
-#instrukcje
-
-#else:
-#instrukcje do wykonania po petli
-
-z=0
-while z!=11:
-    print(z)
-    z+=1
-else:
-    print('wyswietlono '+str(z)+'11 liczb')
-
-lista=[4,6,2,3,5,9,1]
-liczba=input('podaj liczbe:')
-licznik=0
-
-while licznik!=len(lista):
-    if int(liczba)-lista[licznik]==0:
-        print(liczba + ' - ' + str(lista[licznik]) + '=0')
-        break
-
-    else:
-        licznik += 1
+zad4
 
 
-lista1=[4,6,2,3,5,9,1]
-lista2=[7,3,4,6]
 
-suma=[]
 
-for a in lista1:
-    for b in lista2:
-        wynik=a+b
-        suma.append(wynik)
-    print(suma)
 
-liczba1=input('podaj pierwsza liczbe: ')
-liczba2=input('podaj druga liczbe: ')
 
-try:
-    liczba1=int(liczba1)
-    liczba2=int(liczba2)
-    wynik=liczba1/liczba2
-    print ('wynik dzialania='+str(wynik))
 
-except ZeroDivisionError:
-    print ('nie mozna dzielic przez 0')
-except ValueError:
-    print ('nie wczytano liczby calkowitej')
 
-# lista=[]
-#po indeksie
-# slownik={K:W,K:W}
-#slownik{'po kluczu'}
-#klucz wartosc
 
-Lista=[1,2,3,4,5,6,7]
-Lista.append(8)
-Lista.pop(5)
 
-3 in Lista
+
+
+
+
+
+
+

@@ -23,6 +23,75 @@ print(len(slownik))
 
 zad4
 
+a=input('Podaj zdanie policze wystapienie litery a:')
+
+print(a.count('a'))
+
+zad5
+
+print('Podaj 3 liczby calkowite wykonam obliczenie a^b+c')
+a=input('Pierwsza:')
+b=input('Druga:')
+c=input('Trzcia:')
+a=int(a)
+b=int(b)
+c=int(c)
+z=(a**b)+c
+print('wynik to %(a)d'%{'a':z})
+
+zad6
+
+print('Podaj 3 liczby calkowite wyswietle najwiekza')
+a=input('Pierwsza:')
+b=input('Druga:')
+c=input('Trzcia:')
+a=int(a)
+b=int(b)
+c=int(c)
+
+if(a>b)&(a>c):
+        print('Liczba pierwsza jest najwieksza')
+if(b>a)&(b>c):
+        print('Liczba druga jest najwieksza')
+if(c>a)&(c>b):
+        print('Liczba trzecia jest najwieksza')
+        
+zad7
+
+lista=[2,4,6.0,8.0]
+print(lista)
+
+for x in range(0,4,1):
+    lista[x]*=lista[x]
+    
+    
+print(lista)   
+
+zad 8
+
+lista=[]
+z=0
+while z!=10:
+    a=input('Podaj %(a)d element:'%{'a':z+1})
+    a=int(a)
+    if a%2==0:
+        lista.append(a)
+    z+=1
+
+print(lista)  
+
+zad9
+
+import math
+
+print('Podaj  liczbe')
+l=input()
+l=float(l)
+try:
+    wynik=math.sqrt(l)
+    print('Pierwiastek = '+str(wynik))
+except ValueError:
+    print('Niema pierwiastka z liczby ujemnej')
 
 
 

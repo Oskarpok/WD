@@ -101,4 +101,4 @@ c=0xc
 
 print('String       %(z1)s'%{'z1':a})
 print('Float        %(z1)f'%{'z1':b})
-print('Szesnastkowa %(z1)s'%{'z1':hex(c)})
+print('Szesnastkowa %(z1)s'%{'z1':c})

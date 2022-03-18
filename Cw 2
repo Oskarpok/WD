@@ -29,15 +29,19 @@ print(a.count('a'))
 
 zad5
 
-print('Podaj 3 liczby calkowite wykonam obliczenie a^b+c')
-a=input('Pierwsza:')
-b=input('Druga:')
-c=input('Trzcia:')
+import sys as system 
+
+system.stdout.write('Podaj 3 liczby calkowite wykonam obliczenie a^b+c\n')
+
+a=system.stdin.readline()
+b=system.stdin.readline()
+c=system.stdin.readline()
+
 a=int(a)
 b=int(b)
 c=int(c)
-z=(a**b)+c
-print('wynik to %(a)d'%{'a':z})
+
+system.stdout.write('Wynik wynosi %(w)d'%{'w':a**b+c})
 
 zad6
 

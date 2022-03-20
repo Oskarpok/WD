@@ -51,10 +51,45 @@ print(Ptrap())
 
 zad6
 
+def il(a=1,b=4,c=10):
+    w1=a
+    
+    for x in range(a,c,1):
+        w1*=x
 
+    return w1
 
+print(il())
 
+zad 7
 
+def il(a=1,b=4,c=10):
+  
+    w2=2
 
+    for x in range(a,c,1):
+        w2*=x*4
+    
+    return w2
+
+print(il())
+
+zad8
+
+slownik={'Piwo':4.00,'Woda':2.00,'Zagrycha':4.00}
+
+print(slownik)
+
+def ilpcena():
+    x=len(slownik)
+    s=0
+    for values in slownik:
+        s+=slownik[values]
+    
+    return x,s
+    
+print(ilpcena())
+
+zad9
 
 

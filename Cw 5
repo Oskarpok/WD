@@ -70,3 +70,13 @@ df3.to_csv('dane2,csv',index=False)
 #openpyxl
 xlsx=pd.ExcelFile('imiona.xlsx')
 df = pd.read_excel(xlsx, header=0)
+
+print(s['a'])
+print((s.a))
+
+print(df.iloc[[0], [0]])
+print(df.loc[[0], ['Kraj']])
+print(df.at[0, 'Kraj'])
+
+print(df.sampl(2))
+print(df.sample(10, replace=True))

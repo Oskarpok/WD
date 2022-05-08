@@ -178,6 +178,10 @@ df3 = pd.read_csv('dane.csv', header=0, sep=';', decimal='.')
 # print(df.loc[[0], ['Kraj']])
 # print(df.at[0, 'Kraj'])
 
+
+
+
+
 # Kolejne zajecia
 
 # print(s[s > 9])

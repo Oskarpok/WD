@@ -83,8 +83,10 @@ print(df.sample(10, replace=True))
 
 
 
-
-
+print(s[s>8])
+print(s[(s<13)& (s>8)])
+print(s.where(s > 10, 'wartość nie spełniony'))
+new=df.sort
 
 
 Pop

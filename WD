@@ -14,3 +14,28 @@ print('')
 
 df.drop(axis=1,columns='index',inplace=True) #usunieie duplikatu
 df.column=['opis']
+
+
+
+
+zad1 
+
+wektory x=[1,20] krok o ile ma zsie zmieniac i ilosc wartosci z przezialu
+na y whodzi f(x)=1/x
+
+zad2
+Wczytac plik csv do ramki danych wykres
+
+zad3
+Wczytac plik csv do ramki danych wykres nowa ramka danych grupowanie i wyswietlic wykres 
+
+
+
+
+
+
+
+
+
+
+

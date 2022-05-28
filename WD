@@ -1,2 +1,16 @@
 
-hjk
+df=pd.read_csv('nieruchomosci2.csv',header=None ,sep=';' ,decimal=)
+print(df)
+
+print('')
+print(df)
+print('')
+
+df=df.reset_index()
+
+print('')
+print(df)
+print('')
+
+df.drop(axis=1,columns='index',inplace=True) #usunieie duplikatu
+df.column=['opis']

@@ -16,3 +16,26 @@ plt.legend(labels=['Film','Gry'],loc='upper left')
 plt.grid()
 plt.savefig('WykresEgzamin.png')
 plt.show()
+
+
+
+zad 2
+
+xlsx = pd.ExcelFile('mieszkania1.xlsx')
+df = pd.read_excel(xlsx, header=0)
+print(df)
+da = df[df['Rok'] == 2016]
+print(da)
+da1 = da.groupby('Formy budownictwa')['Wartość'].sum()
+
+plt.pie(x=da1,labels=da1.index,explode=(0 , 0.2, 0.1),autopct='%.2f%%')
+plt.legend(title='Wartos mieszkan w oparciu o wlasnosc w 2016 roku ',loc="upper center", bbox_to_anchor=(0.5, 1.16), ncol=2)
+plt.text(-2, 1.5, '26.06.2022', fontsize = 10)
+plt.savefig('WykresEgzamin2.png')
+plt.show()
+
+
+zad 3
+
+
+

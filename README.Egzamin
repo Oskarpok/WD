@@ -1,1 +1,18 @@
 
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+zad 1
+
+plt.plot([1,2,3,4,5,6],[50,42,37,23,26,30],'b--')
+plt.plot([1,3,4,5,6],[23,43,76,65,55],'g')
+plt.axis([0.7,6.3,0,100])
+plt.title('Zyski z filmuw i gier')
+plt.ylabel('Zyski')
+plt.xlabel('Miesiace')
+plt.xticks([1,2,3,4,5,6],['Styczeń','Luty','Marzec','Kwiecień', 'Maj', 'Czerwiec'])
+plt.legend(labels=['Film','Gry'],loc='upper left')
+plt.grid()
+plt.savefig('WykresEgzamin.png')
+plt.show()
